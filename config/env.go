@@ -10,5 +10,6 @@ const (
 // api -
 const (
 	GETECPayOrder    = "/Cashier/QueryTradeInfo/V5"
-	CreateECPayOrder = "/Cashier/AioCheckOut/V5"
+	// CreateECPayOrder = "/Cashier/AioCheckOut/V5"
+	CreateECPayOrder = "/SP/CreateTrade"
 )

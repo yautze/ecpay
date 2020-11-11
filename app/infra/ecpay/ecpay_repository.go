@@ -30,6 +30,8 @@ func GetECPayOrder(in *model.GetTradeInfoRequest) *model.TradeInfo {
 	// response
 	_, res, errs := req.End()
 
+	fmt.Println(res)
+
 	// err check
 	for _, err := range errs {
 		if err != nil {
